@@ -213,7 +213,7 @@ export const DockNG = GObject.registerClass({
         const bgColor = themeNode.get_background_color();
 
         const border = `
-            border-width: 1px;
+            border-width: 0px; //tirei a borda hehe
             border-color: st-${isDarkColor(bgColor) ? 'lighten' : 'darken'}(
                 rgba(${bgColor.red},${bgColor.green},${bgColor.blue},${bgColor.alpha}),
                 15%
