@@ -22,6 +22,7 @@ import {DockNGManager} from './dockManager.js';
 
 export default class ShelledDesktopIconExtension extends Extension {
     enable() {
+        this._settings = this.getSettings();
         this._manager = new DockNGManager(this);
     }
 
@@ -30,20 +31,6 @@ export default class ShelledDesktopIconExtension extends Extension {
             this._manager.destroy();
             this._manager = null;
         }
+        this._settings = null;
     }
-}
-enable() {
-    this._settings = this.getSettings();
-    this._settingsIds = [
-        this._settings.connect('changed::icon-size', () => this._applyIconSize()),
-        this._settings.connect('changed::autohide', () => this._applyAutohide()),
-    ];
-    // ...resto do código, usando this._settings.get_int('icon-size') etc.
-}
-
-disable() {
-    this._settingsIds.forEach(id => this._settings.disconnect(id));
-    this._settingsIds = null;
-    this._settings = null;
-    // ...resto da limpeza
 }

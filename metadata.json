@@ -2,9 +2,9 @@
   "name": "Simple Dock",
   "description": "A lightweight configurable simple dock",
   "uuid": "simple-dock@vidalwannabe.github.io",
-  "version": "1"
+  "version": 1,
   "version-name": "1",
-  "shell-version": "48",
-  "url": "https://github.com/vidalwannabe",
+  "shell-version": ["48"],
+  "url": "https://github.com/vidalwannabe/simple-dock",
   "settings-schema": "org.gnome.shell.extensions.simple-dock"
 }
