@@ -1,7 +1,7 @@
 {
-  "name": "Dock!ng",
+  "name": "Simple Dock",
   "description": "A lightweight non-fixed dock support for GNOME Shell using the native dash with simple but adaptive intellihide",
-  "uuid": "dock-ng@ochi12.github.com",
+  "uuid": "simple-dock@vidalwannabe.github.io",
   "version": 9,
   "version-name": "v1.2.0",
   "shell-version": [
