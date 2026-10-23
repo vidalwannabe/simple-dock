@@ -1,15 +1,10 @@
 {
   "name": "Simple Dock",
-  "description": "A lightweight non-fixed dock support for GNOME Shell using the native dash with simple but adaptive intellihide",
+  "description": "A lightweight configurable simple dock",
   "uuid": "simple-dock@vidalwannabe.github.io",
-  "version": 9,
-  "version-name": "v1.2.0",
-  "shell-version": [
-    "45", "46", "47", "48", "49", "50"
-  ],
-  "url": "https://github.com/ochi12/dock-ng/",
-  "donations": {
-    "github": "ochi12",
-    "paypal": "kaurichannel"
-  }
+  "version": "1"
+  "version-name": "1",
+  "shell-version": "48",
+  "url": "https://github.com/vidalwannabe",
+  "settings-schema": "org.gnome.shell.extensions.simple-dock"
 }

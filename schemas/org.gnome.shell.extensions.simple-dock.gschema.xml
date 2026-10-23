@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.simple-dock"
+          path="/org/gnome/shell/extensions/simple-dock/">
+    <key name="icon-size" type="i">
+      <default>48</default>
+      <range min="16" max="128"/>
+      <summary>Tamanho dos ícones</summary>
+    </key>
+    <key name="autohide" type="b">
+      <default>false</default>
+      <summary>Esconder a dock automaticamente</summary>
+    </key>
+    <key name="position" type="s">
+      <default>'bottom'</default>
+      <summary>Posição da dock</summary>
+    </key>
+  </schema>
+</schemalist>
